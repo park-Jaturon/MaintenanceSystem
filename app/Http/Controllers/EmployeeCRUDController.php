@@ -15,8 +15,8 @@ class EmployeeCRUDController extends Controller
     }
 
     // Create resource
-    public function create(){
-        return view('employee.create');
+    public function create_employee(){
+        return view('employee.create_employee');
     }
 
     // Create

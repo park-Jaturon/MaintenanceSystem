@@ -136,8 +136,8 @@
                             </div>
                         </div>
                     </div>
-
-                    </form>
+                    
+                </form>
                 </div>
             </div>
         </div>
@@ -161,14 +161,7 @@
             otherField.style.display = "none";  // ซ่อนฟิลด์
             otherTypeInput.value = ""; // ล้างค่าของฟิลด์ <input>
           }
+          
         });
-
-        Swal.fire({
-            title: 'Error!',
-            text: 'Do you want to continue',
-            icon: 'error',
-            confirmButtonText: 'Cool'
-          })
-
 </script>
 @endsection

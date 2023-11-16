@@ -10,7 +10,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-3 col-6">
-                        <div class="small-box bg-info">
+                        <div class="small-box bg-info p-2 rounded">
                             <div class="inner">
                                 <h3>62</h3>
                                 <p>รับเเจ้งเรื่องซ่อม</p>
@@ -19,7 +19,7 @@
                                 <i class="ion ion-bag"></i>
                             </div>
                             <div>
-                                <a href="#" class="small-box-footer">
+                                <a href="#" class="small-box-footer text-white">
                                     "More onfo"
                                     <i class="fas fa-arrow-circle-right"></i>
                                 </a>
@@ -28,7 +28,7 @@
                     </div>
 
                     <div class="col-lg-3 col-6">
-                        <div class="small-box bg-success">
+                        <div class="small-box bg-success p-2 rounded">
                             <div class="inner">
                                 <h3>53</h3>
                                 <p>ซ่อมเรียบร้อย</p>
@@ -37,7 +37,7 @@
                                 <i class="ion ion-bag"></i>
                             </div>
                             <div>
-                                <a href="#" class="small-box-footer">
+                                <a href="#" class="small-box-footer text-white">
                                     "More onfo"
                                     <i class="fas fa-arrow-circle-right"></i>
                                 </a>
@@ -46,7 +46,7 @@
                     </div>
 
                     <div class="col-lg-3 col-6">
-                        <div class="small-box bg-warning">
+                        <div class="small-box bg-warning p-2 rounded">
                             <div class="inner">
                                 <h3>12</h3>
                                 <p>กำลังดำเนินการซ่อม</p>
@@ -55,7 +55,7 @@
                                 <i class="ion ion-bag"></i>
                             </div>
                             <div>
-                                <a href="#" class="small-box-footer">
+                                <a href="#" class="small-box-footer text-white">
                                     "More onfo"
                                     <i class="fas fa-arrow-circle-right"></i>
                                 </a>
@@ -64,7 +64,7 @@
                     </div>
 
                     <div class="col-lg-3 col-6">
-                        <div class="small-box bg-danger">
+                        <div class="small-box bg-danger p-2 rounded">
                             <div class="inner">
                                 <h3>23</h3>
                                 <p>ยกเลิกงานซ่อม</p>
@@ -73,7 +73,7 @@
                                 <i class="ion ion-bag"></i>
                             </div>
                             <div>
-                                <a href="#" class="small-box-footer">
+                                <a href="#" class="small-box-footer text-white ">
                                     "More onfo"
                                     <i class="fas fa-arrow-circle-right"></i>
                                 </a>

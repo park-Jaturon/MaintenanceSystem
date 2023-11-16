@@ -32,6 +32,7 @@ Route::get('/login/register', [RegisterController::class,'index']);
 
 // rounte Employee
 Route::resource('/employee',EmployeeCRUDController::class);
+Route::get('/createemployee', [EmployeeCRUDController::class, 'create_employee']);
 
 
 // rounte admin
