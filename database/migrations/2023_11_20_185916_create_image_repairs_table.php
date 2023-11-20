@@ -11,11 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('employees', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('email');
-            $table->string('address');
+        Schema::create('image_repairs', function (Blueprint $table) {
+            $table->id('id_image');
+            $table->integer('id_repair')->unsigned()->comment('idที่ใช้ระบุรายการแจ้งซ่อม');
+            $table->string('nameImage')->comment('ชื่อรูป');
             $table->timestamps();
         });
     }
@@ -25,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('employees');
+        Schema::dropIfExists('image_repairs');
     }
 };
